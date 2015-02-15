@@ -18,6 +18,7 @@ s
         </activity>
         <activity android:name=".Actividad1_1" android:label="@string/act1_name"></activity>
         <activity android:name=".Actividad1_2" android:label="@string/act1_name"></activity>
+        <activity android:name=".Actividad2" android:label="@string/act2_name"></activity>
     </application>
 
 </manifest>

@@ -39,7 +39,8 @@
                 android:layout_height="wrap_content"
                 android:text="Actividad 02"
                 android:id="@+id/btActividad2"
-                style="@style/TemaBotonPequeño" />
+                style="@style/TemaBotonPequeño"
+                android:onClick="accionAct02" />
 
         </LinearLayout>
 
