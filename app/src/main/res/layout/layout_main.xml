@@ -1,8 +1,147 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    style="@style/TemaLayout"
+    android:layout_height="fill_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="EXAMEN PMDM"
+            android:id="@+id/textView"
+            android:gravity="center_horizontal"
+            style="@style/TemaTitulo" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Actividad 01"
+                android:id="@+id/btActividad1"
+                style="@style/TemaBotonPequeño"
+                android:onClick="accionAct01" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Actividad 02"
+                android:id="@+id/btActividad2"
+                style="@style/TemaBotonPequeño" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Actividad 03"
+                android:id="@+id/btActividad3"
+                style="@style/TemaBotonPequeño" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Actividad 04"
+                android:id="@+id/btActividad4"
+                style="@style/TemaBotonPequeño" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Actividad 05"
+                android:id="@+id/btActividad5"
+                style="@style/TemaBotonPequeño" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Actividad 06"
+                android:id="@+id/btActividad6"
+                style="@style/TemaBotonPequeño" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                style="@style/TemaBotonPequeño"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Actividad 07"
+                android:id="@+id/btActividad7" />
+
+            <Button
+                style="@style/TemaBotonPequeño"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Actividad 08"
+                android:id="@+id/btActividad8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <Button
+                style="@style/TemaBotonPequeño"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Actividad 09"
+                android:id="@+id/btActividad9" />
+
+            <Button
+                style="@style/TemaBotonPequeño"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Actividad 10"
+                android:id="@+id/btActividad10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                style="@style/TemaBoton"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:text="Leyenda"
+                android:id="@+id/button"
+                android:layout_margin="0dp" />
+
+        </LinearLayout>
+    </LinearLayout>
 
 </RelativeLayout>

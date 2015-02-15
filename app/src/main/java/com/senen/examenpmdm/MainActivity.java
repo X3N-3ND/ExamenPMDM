@@ -1,12 +1,14 @@
 package com.senen.examenpmdm;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,6 +16,59 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.layout_main);
     }
 
+    //Aquí empiezan los metodos llamados por los onClick de cada Button del layout.
+
+    public void accionAct01(View view) {
+        Intent i = new Intent(this, Actividad1_1.class);
+        startActivity(i);
+    }
+
+    public void accionAct02(View view) {
+        Intent i = new Intent(this, Actividad1_1.class);
+        startActivity(i);
+    }
+
+    public void accionAct03(View view) {
+        Intent i = new Intent(this, Actividad1_1.class);
+        startActivity(i);
+    }
+
+    public void accionAct04(View view){
+        Intent i = new Intent(this, Actividad1_1.class);
+        startActivity(i);
+    }
+
+    public void accionAct05(View view){
+        Intent i = new Intent(this, Actividad1_1.class);
+        startActivity(i);
+    }
+
+    public void accionAct06(View view){
+        Intent i = new Intent(this, Actividad1_1.class);
+        startActivity(i);
+    }
+
+    public void accionAct07(View view){
+        Intent i = new Intent(this, Actividad1_1.class);
+        startActivity(i);
+    }
+
+    public void accionAct08(View view){
+        Intent i = new Intent(this, Actividad1_1.class);
+        startActivity(i);
+    }
+
+    public void accionAct09(View view){
+        Intent i = new Intent(this, Actividad1_1.class);
+        startActivity(i);
+    }
+
+    public void accionAct10(View view){
+        Intent i = new Intent(this, Actividad1_1.class);
+        startActivity(i);
+    }
+
+    //Fín de los métodos personalizados.
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
