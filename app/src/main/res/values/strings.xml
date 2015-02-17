@@ -8,8 +8,8 @@
     <string name="act04_actionbar_grupo">Grupo</string>
     <string name="act05_name">Hilos</string>
     <string name="act06_name">Progreso</string>
-    <string name="act06_textview_subida">Subir archivo</string>
-    <string name="act06_button_ejecutar">Ejecutar</string>
+    <string name="act06_textview_progreso">Progreso</string>
+    <string name="act06_button_ejecutar">Subir archivo</string>
     <string name="act07_name">Teclado</string>
     <string name="act08_name">Pantalla</string>
     <string name="act09_name">SQLite3</string>

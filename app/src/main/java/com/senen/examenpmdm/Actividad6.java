@@ -7,12 +7,9 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.TextView;
+import android.widget.Toast;
 
 public class Actividad6 extends MainActivity {
-    private EditText entrada;
-    private TextView salida;
 
     class MiTarea extends AsyncTask<Integer, Integer, Integer> {
         private ProgressDialog progreso;
@@ -37,12 +34,10 @@ public class Actividad6 extends MainActivity {
         @Override
         protected Integer doInBackground(Integer... n) {
             int res = 1;
-            // aqui iria la carga del archivo en background pero no hay que
-            // hacerla es un ejemplo.
             for (int i = 1; i <= 20 && !isCancelled(); i++) {
                 res *= i;
-                SystemClock.sleep(200);
-                publishProgress(i * 100 / 20); //0,2 segundos por 20 progresos = 4 segundos, cada prograso es de 5% por lot anto necesita 20 para llegar al 100%
+                SystemClock.sleep(500);
+                publishProgress(i * 100 / 20);
             }
             return res;
         }
@@ -55,13 +50,12 @@ public class Actividad6 extends MainActivity {
         @Override
         protected void onPostExecute(Integer res) {
             progreso.dismiss();
-            salida.append("Archivo subido");
+            Toast.makeText(Actividad6.this,"Archivo subido",Toast.LENGTH_SHORT).show();
         }
 
         @Override
         protected void onCancelled() {
-            salida.append("Subida de archivo " + entrada.getText().toString()
-                    + " Cancelada\n\n por favor intentelo en unos minutos.");
+            Toast.makeText(Actividad6.this,"Subida de archivo cancelada.\nIntentelo en unos minutos.",Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -69,13 +63,11 @@ public class Actividad6 extends MainActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_actividad6);
-        /*entrada = (EditText) findViewById(R.id.act6);
-        salida = (TextView) findViewById(R.id.salida);*/
     }
 
     public void subirArchivo(View view) {
-        salida.setText("");// limpia antes de escribir uno nuevo
         MiTarea tarea = new MiTarea();
+        Toast.makeText(Actividad6.this,"Subiendo archivo...",Toast.LENGTH_SHORT).show();
         tarea.execute();
     }
 }
