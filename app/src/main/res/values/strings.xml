@@ -1,11 +1,18 @@
 <resources>
     <string name="app_name">ExamenPMDM</string>
-    <string name="act1_name">Paso de datos</string>
-    <string name="act2_name">Transición</string>
-    <string name="act3_name">Canvas</string>
-    <string name="act4_name">Action Bar</string>
-    <string name="act4_actionbar_curso">Curso</string>
-    <string name="act4_actionbar_grupo">Grupo</string>
+    <string name="act01_name">Paso de datos</string>
+    <string name="act02_name">Transición</string>
+    <string name="act03_name">Canvas</string>
+    <string name="act04_name">Action Bar</string>
+    <string name="act04_actionbar_curso">Curso</string>
+    <string name="act04_actionbar_grupo">Grupo</string>
+    <string name="act05_name">Hilos</string>
+    <string name="act06_name">Progreso</string>
+    <string name="act06_textview_subida">Subir archivo</string>
+    <string name="act06_button_ejecutar">Ejecutar</string>
+    <string name="act07_name">Teclado</string>
+    <string name="act08_name">Pantalla</string>
+    <string name="act09_name">SQLite3</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>

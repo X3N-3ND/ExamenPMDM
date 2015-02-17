@@ -3,7 +3,7 @@
     <item
         android:id="@+id/act4_curso"
         android:showAsAction="ifRoom|withText"
-        android:title="@string/act4_actionbar_curso" />
+        android:title="@string/act04_actionbar_curso" />
 
 
 </menu>

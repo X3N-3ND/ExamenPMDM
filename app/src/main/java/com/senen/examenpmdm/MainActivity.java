@@ -37,36 +37,36 @@ public class MainActivity extends Activity {
         Intent i = new Intent(this, Actividad4.class);
         startActivity(i);
     }
-//
-    /*public void accionAct05(View view){
-        Intent i = new Intent(this, Actividad1_1.class);
+
+    public void accionAct05(View view){
+        Intent i = new Intent(this, Actividad5.class);
         startActivity(i);
     }
 
     public void accionAct06(View view){
-        Intent i = new Intent(this, Actividad1_1.class);
+        Intent i = new Intent(this, Actividad6.class);
         startActivity(i);
     }
 
     public void accionAct07(View view){
-        Intent i = new Intent(this, Actividad1_1.class);
+        Intent i = new Intent(this, Actividad7.class);
         startActivity(i);
     }
 
     public void accionAct08(View view){
-        Intent i = new Intent(this, Actividad1_1.class);
+        Intent i = new Intent(this, Actividad8.class);
         startActivity(i);
     }
 
     public void accionAct09(View view){
-        Intent i = new Intent(this, Actividad1_1.class);
+        Intent i = new Intent(this, Actividad9.class);
         startActivity(i);
     }
 
-    public void accionAct10(View view){
-        Intent i = new Intent(this, Actividad1_1.class);
+    public void accionLeyenda(View view){
+        Intent i = new Intent(this, LeyendaActivity.class);
         startActivity(i);
-    }*/
+    }
 
     //Fín de los métodos personalizados.
 

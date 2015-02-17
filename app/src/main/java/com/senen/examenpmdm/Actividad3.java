@@ -13,6 +13,7 @@ public class Actividad3 extends MainActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(new CanvasPersonalizado(this));
+
     }
 
     public class CanvasPersonalizado extends View {
@@ -29,12 +30,12 @@ public class Actividad3 extends MainActivity{
             Paint pincel2 = new Paint();
             pincel2.setColor(Color.RED);
             pincel2.setStrokeWidth(8);
-//
+
             pincel2.setStyle(Paint.Style.FILL);
             canvas.drawCircle(150, 150, 100, pincel1);
-            canvas.drawRect(300, 150, 200, 200, pincel2);
+            canvas.drawRect(300, 50, 500, 250, pincel2);
             canvas.drawCircle(150, 400, 100, pincel2);
-            canvas.drawRect(300, 300, 200, 200, pincel1);
+            canvas.drawRect(300, 300, 500, 500, pincel1);
         }
     }
 }

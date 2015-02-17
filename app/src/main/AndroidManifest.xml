@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.senen.examenpmdm" >
 
+    /*Ejercicio 10 - Permisos*/
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    /*Ejercicio 10 - Permisos*/
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,10 +22,17 @@ s
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Actividad1_1" android:label="@string/act1_name"/>
-        <activity android:name=".Actividad1_2" android:label="@string/act1_name"/>
-        <activity android:name=".Actividad2" android:label="@string/act2_name"/>
-        <activity android:name=".Actividad3" android:label="@string/act3_name"/>
+        <activity android:name=".Actividad1_1" android:label="@string/act01_name"/>
+        <activity android:name=".Actividad1_2" android:label="@string/act01_name"/>
+        <activity android:name=".Actividad2" android:label="@string/act02_name"/>
+        <activity android:name=".Actividad3" android:label="@string/act03_name"/>
+        <activity android:name=".Actividad4" android:label="@string/act04_name"/>
+        <activity android:name=".Actividad5" android:label="@string/act05_name"/>
+        <activity android:name=".Actividad6" android:label="@string/act06_name"/>
+        <activity android:name=".Actividad7" android:label="@string/act07_name"/>
+        <activity android:name=".Actividad8" android:label="@string/act08_name"/>
+        <activity android:name=".Actividad9" android:label="@string/act09_name"/>
+        <activity android:name=".LeyendaActivity" android:label="Leyenda" android:theme="@android:style/Theme.Dialog"/>
     </application>
 
 </manifest>
