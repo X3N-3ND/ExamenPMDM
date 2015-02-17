@@ -6,7 +6,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" >
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
@@ -16,9 +16,10 @@ s
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Actividad1_1" android:label="@string/act1_name"></activity>
-        <activity android:name=".Actividad1_2" android:label="@string/act1_name"></activity>
-        <activity android:name=".Actividad2" android:label="@string/act2_name"></activity>
+        <activity android:name=".Actividad1_1" android:label="@string/act1_name"/>
+        <activity android:name=".Actividad1_2" android:label="@string/act1_name"/>
+        <activity android:name=".Actividad2" android:label="@string/act2_name"/>
+        <activity android:name=".Actividad3" android:label="@string/act3_name"/>
     </application>
 
 </manifest>

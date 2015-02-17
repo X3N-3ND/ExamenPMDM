@@ -29,16 +29,16 @@ public class MainActivity extends Activity {
     }
 
     public void accionAct03(View view) {
-        Intent i = new Intent(this, Actividad1_1.class);
+        Intent i = new Intent(this, Actividad3.class);
         startActivity(i);
     }
 
     public void accionAct04(View view){
-        Intent i = new Intent(this, Actividad1_1.class);
+        Intent i = new Intent(this, Actividad4.class);
         startActivity(i);
     }
 
-    public void accionAct05(View view){
+    /*public void accionAct05(View view){
         Intent i = new Intent(this, Actividad1_1.class);
         startActivity(i);
     }
@@ -66,7 +66,7 @@ public class MainActivity extends Activity {
     public void accionAct10(View view){
         Intent i = new Intent(this, Actividad1_1.class);
         startActivity(i);
-    }
+    }*/
 
     //Fín de los métodos personalizados.
 

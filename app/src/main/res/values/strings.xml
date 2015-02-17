@@ -4,6 +4,8 @@
     <string name="act2_name">Transición</string>
     <string name="act3_name">Canvas</string>
     <string name="act4_name">Action Bar</string>
+    <string name="act4_actionbar_curso">Curso</string>
+    <string name="act4_actionbar_grupo">Grupo</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>

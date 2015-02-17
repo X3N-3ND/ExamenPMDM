@@ -55,14 +55,16 @@
                 android:layout_height="wrap_content"
                 android:text="Actividad 03"
                 android:id="@+id/btActividad3"
-                style="@style/TemaBotonPequeño" />
+                style="@style/TemaBotonPequeño"
+                android:onClick="accionAct03" />
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Actividad 04"
                 android:id="@+id/btActividad4"
-                style="@style/TemaBotonPequeño" />
+                style="@style/TemaBotonPequeño"
+                android:onClick="accionAct04" />
         </LinearLayout>
 
         <LinearLayout
