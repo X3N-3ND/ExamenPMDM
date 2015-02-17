@@ -29,7 +29,7 @@ public class Actividad3 extends MainActivity{
             Paint pincel2 = new Paint();
             pincel2.setColor(Color.RED);
             pincel2.setStrokeWidth(8);
-
+//
             pincel2.setStyle(Paint.Style.FILL);
             canvas.drawCircle(150, 150, 100, pincel1);
             canvas.drawRect(300, 150, 200, 200, pincel2);

@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
         Intent i = new Intent(this, Actividad4.class);
         startActivity(i);
     }
-
+//
     /*public void accionAct05(View view){
         Intent i = new Intent(this, Actividad1_1.class);
         startActivity(i);

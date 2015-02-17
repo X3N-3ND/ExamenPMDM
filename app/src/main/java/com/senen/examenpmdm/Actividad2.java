@@ -21,4 +21,4 @@ public class Actividad2 extends MainActivity{
     public void act2_accionTransicion(View view){
         transicionDw.startTransition(3000);
     }
-}
+}//
